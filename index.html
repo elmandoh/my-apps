@@ -3,25 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تطبيقات المطور الرسمية</title>
+    <title>Elmandoh Apps | المندوه للتطبيقات</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; color: #333; text-align: center; padding: 50px; }
-        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); display: inline-block; max-width: 500px; }
-        h1 { color: #1a73e8; }
-        p { line-height: 1.6; }
-        .links { margin-top: 20px; }
-        .links a { display: block; background: #1a73e8; color: white; padding: 10px; margin: 10px 0; border-radius: 5px; text-decoration: none; transition: 0.3s; }
-        .links a:hover { background: #1557b0; }
+        :root { --primary: #1a73e8; --dark: #202124; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f8f9fa; color: var(--dark); }
+        header { background: var(--primary); color: white; padding: 40px 20px; text-align: center; }
+        .container { max-width: 800px; margin: -30px auto 20px; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .app-list { display: grid; gap: 15px; margin-top: 20px; }
+        .app-item { border: 1px solid #eee; padding: 15px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; }
+        .btn { background: var(--primary); color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px; }
+        footer { text-align: center; padding: 20px; font-size: 13px; color: #70757a; }
+        .legal-links { margin-top: 20px; border-top: 1px solid #eee; pt: 15px; }
+        .legal-links a { margin: 0 10px; color: var(--primary); text-decoration: none; font-size: 14px; }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>مرحباً بك في صفحة المطور</h1>
-        <p>نحن نقدم تطبيقات وحلول برمجية مبتكرة على متجر جوجل بلاي.</p>
-        <div class="links">
-            <a href="https://play.google.com/store/apps/dev?id=4697993101533851955">تطبيقاتنا على جوجل بلاي</a>
-            <a href="app-ads.txt">ملف app-ads.txt الموثق</a>
+    <header>
+        <h1>Elmandoh Apps Store</h1>
+        <p>نقدم تطبيقات آمنة، سريعة، ومجانية تماماً</p>
+    </header>
+    <div class="container">
+        <h3>تطبيقاتنا المتاحة:</h3>
+        <div class="app-list">
+            <div class="app-item">
+                <span>تطبيق الأذكار والسبحة الإلكترونية</span>
+                <a href="https://play.google.com/store/apps/dev?id=4697993101533851955" class="btn">تحميل</a>
+            </div>
+            <div class="app-item">
+                <span>تطبيق كاشف الكذب Prank</span>
+                <a href="https://play.google.com/store/apps/dev?id=4697993101533851955" class="btn">تحميل</a>
+            </div>
+        </div>
+
+        <div class="legal-links">
+            <a href="privacy.html">سياسة الخصوصية (Privacy Policy)</a>
+            <a href="app-ads.txt">توثيق المطور (app-ads.txt)</a>
         </div>
     </div>
+    <footer>© 2026 Elmandoh Apps. جميع الحقوق محفوظة.</footer>
 </body>
 </html>

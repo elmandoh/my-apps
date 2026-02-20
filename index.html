@@ -3,88 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="appmeta - المطور الرسمي لمجموعة تطبيقات أندرويد الاحترافية، أدوات الذكاء الاصطناعي، مشغلات IPTV، ومتصفحات سريعة وآمنة.">
     <title>appmeta | Official App Store</title>
     <style>
-        :root { --primary: #00c2cb; --dark: #1a1a1a; --bg: #f8f9fa; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: var(--bg); color: #333; }
-        header { background: var(--dark); color: white; padding: 50px 20px; text-align: center; }
-        header h1 { margin: 0; font-size: 2.5em; color: var(--primary); }
-        .container { max-width: 1100px; margin: -30px auto 40px; background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
-        .intro { text-align: center; margin-bottom: 40px; border-bottom: 2px solid #eee; padding-bottom: 20px; }
+        :root { --primary: #00c2cb; --secondary: #1a73e8; --dark: #121212; --bg: #f4f7f6; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; margin: 0; background-color: var(--bg); color: #333; line-height: 1.6; }
+        header { background: linear-gradient(135deg, var(--dark) 0%, #2c3e50 100%); color: white; padding: 60px 20px; text-align: center; }
+        header h1 { margin: 0; font-size: 3rem; color: var(--primary); }
+        .container { max-width: 1200px; margin: 20px auto; padding: 20px; }
         .app-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
-        .app-card { border: 1px solid #edf2f7; padding: 20px; border-radius: 15px; background: #fff; transition: 0.3s ease; display: flex; flex-direction: column; justify-content: space-between; }
-        .app-card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-color: var(--primary); }
-        .app-title { font-weight: bold; font-size: 1.1em; color: var(--dark); margin-bottom: 10px; display: block; }
-        .app-desc { font-size: 0.9em; color: #666; margin-bottom: 15px; line-height: 1.4; flex-grow: 1; }
-        .btn { background: var(--primary); color: white; padding: 10px; border-radius: 8px; text-decoration: none; font-size: 0.9em; text-align: center; font-weight: bold; }
-        .btn:hover { background: #00a8af; }
-        .footer-links { margin-top: 50px; text-align: center; padding-top: 20px; border-top: 1px solid #eee; }
-        .footer-links a { margin: 0 15px; color: var(--primary); text-decoration: none; font-weight: bold; }
-        .footer-links a:hover { text-decoration: underline; }
-        .copy { margin-top: 20px; font-size: 0.8em; color: #999; }
+        .app-card { background: white; border-radius: 15px; padding: 20px; border: 1px solid #eee; display: flex; flex-direction: column; transition: 0.3s; }
+        .app-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); border-color: var(--primary); }
+        .app-title { font-weight: bold; font-size: 1.1rem; color: var(--dark); margin-bottom: 8px; display: block; height: 50px; overflow: hidden; }
+        .app-desc { font-size: 0.9rem; color: #666; margin-bottom: 15px; height: 60px; overflow: hidden; }
+        .btn { background: var(--secondary); color: white; text-align: center; padding: 10px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 0.85rem; margin-top: auto; }
+        .btn:hover { background: var(--dark); }
+        footer { background: #fff; border-top: 1px solid #eee; padding: 40px; text-align: center; margin-top: 50px; }
+        .footer-links a { margin: 0 15px; text-decoration: none; color: var(--secondary); font-weight: bold; }
     </style>
 </head>
 <body>
 
 <header>
     <h1>appmeta</h1>
-    <p>حلول برمجية مبتكرة وتطبيقات ذكية لمستخدمي أندرويد</p>
+    <p>حلول برمجية ذكية وتطبيقات أندرويد احترافية (2026)</p>
 </header>
 
 <div class="container">
-    <div class="intro">
-        <h2>تطبيقاتنا الموثوقة على Google Play</h2>
-        <p>نحن فخورون بتقديم أكثر من 20 تطبيقاً متميزاً في مختلف المجالات</p>
-    </div>
-
     <div class="app-grid">
         <div class="app-card">
             <span class="app-title">ASD IPTV Player</span>
-            <p class="app-desc">تطبيق IPTV نظيف وسريع، يدعم m3u/m3u8 بدون إعلانات داخلية.</p>
-            <a href="https://play.google.com/store/apps/details?id=asd.iptvplayer2" class="btn">تحميل من Google Play</a>
+            <p class="app-desc">مشغل IPTV سريع يدعم m3u/m3u8 بدون إعلانات داخلية.</p>
+            <a href="https://play.google.com/store/apps/details?id=asd.iptvplayer2" class="btn">تحميل التطبيق</a>
         </div>
         <div class="app-card">
             <span class="app-title">Design AI</span>
-            <p class="app-desc">دليلك الشامل لأدوات الذكاء الاصطناعي في التصميم 2025.</p>
-            <a href="https://play.google.com/store/apps/details?id=design.ai2" class="btn">تحميل من Google Play</a>
+            <p class="app-desc">دليل أدوات الذكاء الاصطناعي للتصميم 2025 نصائح واحتراف.</p>
+            <a href="https://play.google.com/store/apps/details?id=design.ai2" class="btn">تحميل التطبيق</a>
         </div>
         <div class="app-card">
             <span class="app-title">Family TV</span>
-            <p class="app-desc">ترفيه عائلي عربي آمن: قنوات، أفلام، وأقسام خاصة للأطفال.</p>
-            <a href="https://play.google.com/store/apps/details?id=tv.appape" class="btn">تحميل من Google Play</a>
+            <p class="app-desc">ترفيه عائلي آمن: قنوات، أفلام، وقسم خاص للأطفال.</p>
+            <a href="https://play.google.com/store/apps/details?id=tv.appape" class="btn">تحميل التطبيق</a>
         </div>
         <div class="app-card">
             <span class="app-title">Fast Lite Web Browser</span>
-            <p class="app-desc">متصفح خفيف وسريع مع وضع مظلم وخصوصية عالية جداً.</p>
-            <a href="https://play.google.com/store/apps/details?id=fast.litewebbrowser" class="btn">تحميل من Google Play</a>
+            <p class="app-desc">متصفح خفيف وسريع مع وضع مظلم وخصوصية كاملة.</p>
+            <a href="https://play.google.com/store/apps/details?id=fast.litewebbrowser" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">Note Eye: Draw on Camera</span>
+            <p class="app-desc">رسم مباشر على الكاميرا الحية ولوحة بيضاء غير محدودة.</p>
+            <a href="https://play.google.com/store/apps/details?id=noteeye.ayzi" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">QR Code Maker</span>
+            <p class="app-desc">مولد QR codes ملون ومجاني مع ميزة التخصيص الكامل.</p>
+            <a href="https://play.google.com/store/apps/details?id=qr.appmu" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">Korea - Cafe Finder</span>
+            <p class="app-desc">دليل مقاهي كوريا وأوقات الصلاة وفلاتر ذكية للمساجد.</p>
+            <a href="https://play.google.com/store/apps/details?id=kcafe.finder" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">س تواصل بلا حدود</span>
+            <p class="app-desc">دردشة عربية سريعة، مكالمات فيديو ومشاركة ملفات آمنة.</p>
+            <a href="https://play.google.com/store/apps/details?id=ap3756437.bps" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">QR Scanner - ماسح سريع</span>
+            <p class="app-desc">ماسح QR وباركود مع سجل تاريخ ودعم شبكات الواي فاي.</p>
+            <a href="https://play.google.com/store/apps/details?id=qr.scanner377" class="btn">تحميل التطبيق</a>
         </div>
         <div class="app-card">
             <span class="app-title">Smart Sync Hub</span>
             <p class="app-desc">إدارة المهام والمصروفات مع مساعد ذكاء اصطناعي متطور.</p>
-            <a href="https://play.google.com/store/apps/details?id=smartsync.hub" class="btn">تحميل من Google Play</a>
+            <a href="https://play.google.com/store/apps/details?id=smartsync.hub" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">ConnectSphere</span>
+            <p class="app-desc">شبكة تواصل للأعمال: فواتير، اجتماعات، ودردشة احترافية.</p>
+            <a href="https://play.google.com/store/apps/details?id=connectsphere.aczh" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">Insurance Guide</span>
+            <p class="app-desc">دليل التأمين الصحي والحياة والمنزل بمتعدد اللغات.</p>
+            <a href="https://play.google.com/store/apps/details?id=insurance.aplicnem" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">Digital CV Share</span>
+            <p class="app-desc">صمم سيرتك الذاتية في دقائق وشاركها كرابط أو ملف PDF.</p>
+            <a href="https://play.google.com/store/apps/details?id=digital.cvshare" class="btn">تحميل التطبيق</a>
         </div>
         <div class="app-card">
             <span class="app-title">Hilal Fans – أخبار الهلال</span>
-            <p class="app-desc">متابعة لحظية لأخبار نادي الهلال ونتائج المباريات ودردشة الجماهير.</p>
-            <a href="https://play.google.com/store/apps/details?id=al.hilalfans" class="btn">تحميل من Google Play</a>
+            <p class="app-desc">تغطية حصرية لنادي الهلال، نتائج حية ودردشة للجماهير.</p>
+            <a href="https://play.google.com/store/apps/details?id=al.hilalfans" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">Dho Chat & Movies</span>
+            <p class="app-desc">دردشة ومشاركة أفلام وبيع مستعمل مع أشخاص حقيقيين.</p>
+            <a href="https://play.google.com/store/apps/details?id=app3514831.dho" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">Sech Browser</span>
+            <p class="app-desc">متصفح سريع يدعم البحث الصوتي والترجمة الفورية المدمجة.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.eslamegyp.serch" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">My Web Tool</span>
+            <p class="app-desc">أداة ويب بسيطة لتصفح المواقع المفضلة بسرعة وكفاءة.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.appmet1.myapplication" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">ASD IPTV Player 26</span>
+            <p class="app-desc">النسخة المطورة والمحدثة لمشغل IPTV مع تحسينات الأداء.</p>
+            <a href="https://play.google.com/store/apps/details?id=asd.iptvplayer26" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">Injury Lawyer Guide</span>
+            <p class="app-desc">دليل قانوني شامل لمحامي الإصابات والحوادث والإجراءات.</p>
+            <a href="https://play.google.com/store/apps/details?id=injurylawyerguide.aplizrc" class="btn">تحميل التطبيق</a>
+        </div>
+        <div class="app-card">
+            <span class="app-title">Daily Tools Web Hub</span>
+            <p class="app-desc">مركز الأدوات اليومية: مهام، فحص هاتف، وأدوات ويب سريعة.</p>
+            <a href="https://play.google.com/store/apps/details?id=quick.dailytools" class="btn">تحميل التطبيق</a>
         </div>
         <div class="app-card">
             <span class="app-title">Smart IPTV View M3U</span>
-            <p class="app-desc">مشغل M3U ذكي مع ميزات المفضلة وتاريخ المشاهدة.</p>
-            <a href="https://play.google.com/store/apps/details?id=smart.iptvviewer" class="btn">تحميل من Google Play</a>
+            <p class="app-desc">مشغل M3U احترافي مع ميزات المفضلة وتنظيم القنوات.</p>
+            <a href="https://play.google.com/store/apps/details?id=smart.iptvviewer" class="btn">تحميل التطبيق</a>
         </div>
-        
+        <div class="app-card">
+            <span class="app-title">MetaCarro</span>
+            <p class="app-desc">أداة مساعدة لأصحاب السيارات وخدمات الصيانة 24 ساعة.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.metacarro.appmeta" class="btn">تحميل التطبيق</a>
         </div>
-
-    <div class="footer-links">
-        <a href="privacy.html">سياسة الخصوصية (Privacy Policy)</a>
-        <a href="app-ads.txt">ملف الناشر (app-ads.txt)</a>
-    </div>
-
-    <div class="copy" style="text-align: center;">
-        © 2026 appmeta Digital. All rights reserved.
     </div>
 </div>
+
+<footer>
+    <div class="footer-links">
+        <a href="privacy.html">سياسة الخصوصية</a>
+        <a href="app-ads.txt">app-ads.txt</a>
+    </div>
+    <p>Official Developer Contact: official.appmeta@gmail.com</p>
+    <div class="copy">© 2026 appmeta Digital Solutions. جميع الحقوق محفوظة.</div>
+</footer>
 
 </body>
 </html>
